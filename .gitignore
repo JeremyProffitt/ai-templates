@@ -1,0 +1,114 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bootstrap
+main
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+coverage.txt
+coverage.html
+gosec-report.json
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Dependency directories
+vendor/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+env.json
+
+# IDE directories
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# AWS SAM
+.aws-sam/
+samconfig.toml.local
+packaged.yaml
+
+# Lambda packages
+*.zip
+lambda-deployment.zip
+
+# Build directories
+dist/
+build/
+bin/
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker
+.dockerignore
+
+# Terraform (if used)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Python (for scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Node (for frontend if needed)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Certificates and keys
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Local configuration
+config.local.yaml
+config.local.json
+*-local.yaml
+*-local.json
+
+# DynamoDB Local
+shared-local-instance.db

@@ -1,5 +1,0 @@
-using the template in c:\dev\ai-templates, generate a website for podcast distribution using s3 and cloudfront.  The
-  website should have an admin page that you can log into and trigger scanning the s3 bucket for new pod casts, and
-  altering of pod cast description.  every hour a lambda should scan the s3 bucket for new pod casts and automatically
-  add them unless they are marked hidden in the admin tool.  commit and build, review the pipeline output for errors,
-  remediate any errors and continue doing this until the pipeline runs without error.  use us-east-1.
